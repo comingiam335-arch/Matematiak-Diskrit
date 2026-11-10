@@ -68,6 +68,8 @@ int main() {
         break;
         default:
         cout<<"Pilihan tidak ada!\n";
+        system("pause > null");
+        main();
         break;
     }
     cout<<"Apakah sudah selesai? (y/n): ";
@@ -91,4 +93,4 @@ int main() {
 cout<<"Terima kasih...\n";
 system("pause > null");
 }
-        //Akuntansi jn dry text dong :'(
+        //acct jn dry text dong :'(
